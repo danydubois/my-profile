@@ -1,0 +1,99 @@
+body {
+	font-family: algerian;
+	background-color: rgb(145 233 255);
+}
+h1 {
+	color: rgb(67 67 67);
+	font-size: 50px
+}
+h2 {
+	color: rgb(67 67 67);
+	font-size: 30px
+}
+p {
+	color: #54BBFF;
+	font-size: 20px
+}
+a {
+	text-decoration: none;
+	font-size: 20px
+}
+/* custom design with class */
+.container {
+	margin: 40px auto;
+	width: 700px
+}
+@media (max-width: 1100px) {
+	.container {
+		width: 1000px;
+	}
+}
+@media (max-width: 900px) {
+	.container {
+		width: 800px;
+	}
+}
+@media (max-width: 700px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+.card-white {
+	text-align: center;
+	margin: 20px 0px;
+	border-radius: 8px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	padding: 40px;
+	background-color: white
+}
+.img-circle {
+	border-radius: 10%
+}
+.btn-black {
+	border-radius: 5px;
+	padding: 15px 20px;
+	color: white;
+	background-color: rgb(72 151 254);
+}
+.btn-black:hover {
+	color: rgb(254 253 72);
+}
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px
+}
+.list-horizontal li {
+	display: inline;
+	padding: 10px
+}
+.list-horizontal i {
+	color: black;
+	font-size: 50px
+}
+.list-horizontal i:hover {
+	color: rgb(67 67 67);
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
